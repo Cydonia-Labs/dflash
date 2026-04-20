@@ -1,0 +1,334 @@
+{
+  "baseline_sglang_triton": {
+    "What is 2+2? Think step by step, then an": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      }
+    },
+    "Write a Python function that reverses a ": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      }
+    },
+    "Explain RSA encryption in one paragraph.": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      }
+    }
+  },
+  "dflash_sglang_triton": {
+    "What is 2+2? Think step by step, then an": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      }
+    },
+    "Write a Python function that reverses a ": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a simple Python function that rev",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 111
+      }
+    },
+    "Explain RSA encryption in one paragraph.": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 375
+      }
+    }
+  },
+  "baseline_sglang_triton_2026-04-20": {
+    "A bag contains 5 red, 3 blue, and 2 gree": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      }
+    },
+    "Write a Python function that reverses a ": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 17
+      }
+    },
+    "Explain RSA encryption in one paragraph.": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      }
+    }
+  },
+  "dflash_sglang_triton_2026-04-20": {
+    "A bag contains 5 red, 3 blue, and 2 gree": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": true,
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "other_first_48": "Here's a thinking process that leads to the solu",
+        "first_divergence_char": null
+      }
+    },
+    "Write a Python function that reverses a ": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a simple Python function that rev",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a simple Python function that rev",
+        "first_divergence_char": 17
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": true,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": null
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "other_first_48": "The user wants a Python function that reverses a",
+        "first_divergence_char": 111
+      }
+    },
+    "Explain RSA encryption in one paragraph.": {
+      "solo_self_consistent": true,
+      "B=4_batchmatesA_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      },
+      "B=4_batchmatesB_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      },
+      "B=4_batchmatesA_slot3": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      },
+      "B=8_slot0": {
+        "bit_exact": false,
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "first_divergence_char": 110
+      }
+    }
+  }
+}
