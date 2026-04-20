@@ -32,6 +32,7 @@ Results are merged into /tmp/batch_variance_sweep_results.json.
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -39,7 +40,8 @@ from pathlib import Path
 
 import requests
 
-URL = "http://127.0.0.1:30000"
+URL = os.environ.get("SERVER_URL", "http://127.0.0.1:30000")
+MODEL_ID = os.environ.get("MODEL_ID", "Qwen/Qwen3.5-27B")
 MAX_NEW_TOKENS = 128
 TIMEOUT_S = 600
 RESULTS_FILE = Path("/tmp/batch_variance_sweep_results.json")
@@ -133,7 +135,7 @@ def send_chat(prompt: str) -> str:
     r = requests.post(
         URL + "/v1/chat/completions",
         json={
-            "model": "Qwen/Qwen3.5-27B",
+            "model": MODEL_ID,
             "messages": [{"role": "user", "content": prompt}],
             "max_tokens": MAX_NEW_TOKENS,
             "temperature": 0.0,
@@ -143,7 +145,8 @@ def send_chat(prompt: str) -> str:
         timeout=TIMEOUT_S,
     )
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"]
+    msg = r.json()["choices"][0]["message"]
+    return (msg.get("reasoning") or "") + (msg.get("content") or "")
 
 
 def batched_burst(target_prompt: str, batchmates: list[str], target_slot: int) -> str:

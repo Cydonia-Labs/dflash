@@ -16,12 +16,14 @@ different labels accumulate into one file for comparison.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
 import requests
 
-URL = "http://127.0.0.1:30000"
+URL = os.environ.get("SERVER_URL", "http://127.0.0.1:30000")
+MODEL_ID = os.environ.get("MODEL_ID", "Qwen/Qwen3.5-27B")
 PROMPTS = [
     "What is 2+2? Think step by step, then answer.",
     "Write a Python function that reverses a string.",
@@ -49,7 +51,7 @@ def run_determinism(label: str) -> dict:
             r = requests.post(
                 URL + "/v1/chat/completions",
                 json={
-                    "model": "Qwen/Qwen3.5-27B",
+                    "model": MODEL_ID,
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": MAX_NEW_TOKENS,
                     # temp=0 forces greedy; top_p/top_k are ignored but set for clarity
@@ -60,7 +62,8 @@ def run_determinism(label: str) -> dict:
                 timeout=300,
             )
             r.raise_for_status()
-            content = r.json()["choices"][0]["message"]["content"]
+            msg = r.json()["choices"][0]["message"]
+            content = (msg.get("reasoning") or "") + (msg.get("content") or "")
             outputs.append(content)
             print(f"  [{label}] run {i + 1}/{RUNS_PER_PROMPT} for {prompt[:30]!r}: {len(content)} chars")
 
