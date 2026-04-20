@@ -1,0 +1,331 @@
+{
+  "min_len": 8,
+  "per_batch_size": {
+    "2": [
+      {
+        "prompt_idx": 0,
+        "prompt_preview": "What is 2+2? Think step by step, then an",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.15625,
+        "top5_solo": [
+          2923,
+          883,
+          15060,
+          2503,
+          314
+        ],
+        "top5_batched": [
+          2923,
+          883,
+          15060,
+          2503,
+          314
+        ]
+      },
+      {
+        "prompt_idx": 1,
+        "prompt_preview": "Write a Python function that reverses a ",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.1875,
+        "top5_solo": [
+          886,
+          2574,
+          82546,
+          1103,
+          10278
+        ],
+        "top5_batched": [
+          886,
+          2574,
+          82546,
+          1103,
+          10278
+        ]
+      }
+    ],
+    "4": [
+      {
+        "prompt_idx": 0,
+        "prompt_preview": "What is 2+2? Think step by step, then an",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.15625,
+        "top5_solo": [
+          2923,
+          883,
+          15060,
+          2503,
+          314
+        ],
+        "top5_batched": [
+          2923,
+          883,
+          15060,
+          2503,
+          314
+        ]
+      },
+      {
+        "prompt_idx": 1,
+        "prompt_preview": "Write a Python function that reverses a ",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.1875,
+        "top5_solo": [
+          886,
+          2574,
+          82546,
+          1103,
+          10278
+        ],
+        "top5_batched": [
+          886,
+          2574,
+          82546,
+          1103,
+          10278
+        ]
+      },
+      {
+        "prompt_idx": 2,
+        "prompt_preview": "Explain RSA encryption in one paragraph.",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.23046875,
+        "top5_solo": [
+          271,
+          248046,
+          28763,
+          198,
+          5272
+        ],
+        "top5_batched": [
+          271,
+          248046,
+          28763,
+          198,
+          5272
+        ]
+      },
+      {
+        "prompt_idx": 3,
+        "prompt_preview": "List the first five prime numbers and ex",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.15625,
+        "top5_solo": [
+          3069,
+          1204,
+          279,
+          1092,
+          11
+        ],
+        "top5_batched": [
+          3069,
+          1204,
+          279,
+          1092,
+          11
+        ]
+      }
+    ],
+    "8": [
+      {
+        "prompt_idx": 0,
+        "prompt_preview": "What is 2+2? Think step by step, then an",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.15625,
+        "top5_solo": [
+          2923,
+          883,
+          15060,
+          2503,
+          314
+        ],
+        "top5_batched": [
+          2923,
+          883,
+          15060,
+          2503,
+          314
+        ]
+      },
+      {
+        "prompt_idx": 1,
+        "prompt_preview": "Write a Python function that reverses a ",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.1875,
+        "top5_solo": [
+          886,
+          2574,
+          82546,
+          1103,
+          10278
+        ],
+        "top5_batched": [
+          886,
+          2574,
+          82546,
+          1103,
+          10278
+        ]
+      },
+      {
+        "prompt_idx": 2,
+        "prompt_preview": "Explain RSA encryption in one paragraph.",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.23046875,
+        "top5_solo": [
+          271,
+          248046,
+          28763,
+          198,
+          5272
+        ],
+        "top5_batched": [
+          271,
+          248046,
+          28763,
+          198,
+          5272
+        ]
+      },
+      {
+        "prompt_idx": 3,
+        "prompt_preview": "List the first five prime numbers and ex",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.15625,
+        "top5_solo": [
+          3069,
+          1204,
+          279,
+          1092,
+          11
+        ],
+        "top5_batched": [
+          3069,
+          1204,
+          279,
+          1092,
+          11
+        ]
+      },
+      {
+        "prompt_idx": 4,
+        "prompt_preview": "Summarize the plot of Hamlet in two sent",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.15625,
+        "top5_solo": [
+          13,
+          303,
+          271,
+          11,
+          321
+        ],
+        "top5_batched": [
+          13,
+          303,
+          271,
+          11,
+          321
+        ]
+      },
+      {
+        "prompt_idx": 5,
+        "prompt_preview": "Describe the water cycle for a fifth gra",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.220703125,
+        "top5_solo": [
+          966,
+          271,
+          10261,
+          932,
+          1099
+        ],
+        "top5_batched": [
+          966,
+          10261,
+          271,
+          1099,
+          932
+        ]
+      },
+      {
+        "prompt_idx": 6,
+        "prompt_preview": "Name three programming languages and the",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.125,
+        "top5_solo": [
+          4886,
+          1723,
+          1105,
+          13,
+          54087
+        ],
+        "top5_batched": [
+          4886,
+          1723,
+          1105,
+          13,
+          54087
+        ]
+      },
+      {
+        "prompt_idx": 7,
+        "prompt_preview": "Define the term 'machine learning' in pl",
+        "bit_equal": false,
+        "argmax_equal": true,
+        "max_abs_diff": 0.171875,
+        "top5_solo": [
+          264,
+          279,
+          799,
+          220,
+          4145
+        ],
+        "top5_batched": [
+          264,
+          279,
+          799,
+          220,
+          4145
+        ]
+      }
+    ]
+  },
+  "position_test_B4": [
+    {
+      "slot": 0,
+      "bit_equal": false,
+      "argmax_equal": true,
+      "max_abs_diff": 0.15625
+    },
+    {
+      "slot": 1,
+      "bit_equal": false,
+      "argmax_equal": true,
+      "max_abs_diff": 0.15625
+    },
+    {
+      "slot": 2,
+      "bit_equal": false,
+      "argmax_equal": true,
+      "max_abs_diff": 0.15625
+    },
+    {
+      "slot": 3,
+      "bit_equal": false,
+      "argmax_equal": true,
+      "max_abs_diff": 0.15625
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "target_0": {
+    "prompt": "A bag contains 5 red, 3 blue, and 2 green marbles. If I draw 3 marbles without replacement, what's the probability all three are different colors? Show your work.",
+    "solo_tokens_len": 128,
+    "solo_text_first_200": "\n\nTo find the probability that all three marbles drawn are of different colors, we need to consider the total number of ways to draw 3 marbles from the bag and the number of favorable outcomes where e",
+    "comparisons": {
+      "solo_self_consistency": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesB_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot3": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B8_target_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      }
+    }
+  },
+  "target_1": {
+    "prompt": "Write a Python function that reverses a string.",
+    "solo_tokens_len": 128,
+    "solo_text_first_200": "\n\nHere is a simple and efficient way to reverse a string in Python using **slice notation**.\n\n```python\ndef reverse_string(s):\n    \"\"\"\n    Reverses the input string.\n    \n    Args:\n        s (str): Th",
+    "comparisons": {
+      "solo_self_consistency": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesB_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot3": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B8_target_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      }
+    }
+  },
+  "target_2": {
+    "prompt": "Explain RSA encryption in one paragraph.",
+    "solo_tokens_len": 128,
+    "solo_text_first_200": "\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: RSA encryption.\n    *   Constraint: Explain in exactly one paragraph.\n\n2.  **Identify Key Concepts of RSA:**\n    *   Public-key",
+    "comparisons": {
+      "solo_self_consistency": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesB_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": false,
+        "first_divergence": 85,
+        "common_prefix": 85,
+        "prefix_text": " pair: Public key (encryption), Private key (decryption).\n    *   Mathematical basis:",
+        "solo_tail": " Large prime numbers, factoring difficulty.\n    *   Process: Encrypt with public, decrypt with",
+        "batched_tail": " Prime numbers, factorization difficulty (large integers).\n    *   Process: Encrypt with public,"
+      },
+      "B4_batchmatesA_slot3": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B8_target_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      }
+    }
+  }
+}

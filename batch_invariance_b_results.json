@@ -1,0 +1,125 @@
+{
+  "target_0": {
+    "prompt": "What is 2+2? Think step by step, then answer.",
+    "solo_tokens_len": 128,
+    "comparisons": {
+      "solo_self_consistency": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesB_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot3": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B8_target_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      }
+    }
+  },
+  "target_1": {
+    "prompt": "Write a Python function that reverses a string.",
+    "solo_tokens_len": 128,
+    "comparisons": {
+      "solo_self_consistency": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesB_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot3": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B8_target_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      }
+    }
+  },
+  "target_2": {
+    "prompt": "Explain RSA encryption in one paragraph.",
+    "solo_tokens_len": 128,
+    "comparisons": {
+      "solo_self_consistency": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesA_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B4_batchmatesB_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": false,
+        "first_divergence": 85,
+        "common_prefix": 85
+      },
+      "B4_batchmatesA_slot3": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      },
+      "B8_target_slot0": {
+        "len_a": 128,
+        "len_b": 128,
+        "bit_exact": true,
+        "first_divergence": null,
+        "common_prefix": 128
+      }
+    }
+  }
+}
