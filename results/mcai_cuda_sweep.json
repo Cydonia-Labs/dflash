@@ -1,0 +1,2602 @@
+{
+  "baseline_sglang_triton_2026-04-20": {
+    "label": "baseline_sglang_triton_2026-04-20",
+    "targets": [
+      {
+        "category": "pure_math",
+        "target": "A bag contains 5 red, 3 blue, and 2 green marbles. If I draw 3 marbles without replacement, what's the probability all three are different colors? Show your work.",
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Solve for x: 3x\u00b2 + 7x - 20 = 0. Show your work.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Compute: 127 \u00d7 43, then add 19, then divide by 8. Show your work.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Is 1009 prime? Show your reasoning step by step.",
+        "solo_first_48": "Here's a thinking process that leads to the conc",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "A train leaves city A at 60 mph, another at 80 mph from city B, 350 miles apart. When do they meet?",
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Integrate: \u222b (3x\u00b2 + 2x - 5) dx, then evaluate from x=0 to x=4. Show your work.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "code",
+        "target": "Write a Python function that reverses a string.",
+        "solo_first_48": "The user wants a simple Python function that rev",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a simple Python function that rev",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": 17
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a simple Python function that rev",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": 17
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a simple Python function that rev",
+          "other_first_48": "The user wants a simple Python function that rev",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a simple Python function that rev",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": 17
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a simple Python function that rev",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": 17
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a simple Python function that rev",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": 17
+        }
+      },
+      {
+        "category": "code",
+        "target": "Write a Python function that returns the nth Fibonacci number (0-indexed).",
+        "solo_first_48": "The user wants a Python function that returns th",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "code",
+        "target": "Write a Rust function that checks if a string is a palindrome.",
+        "solo_first_48": "The user wants a Rust function that checks if a ",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 185
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 185
+        }
+      },
+      {
+        "category": "code",
+        "target": "Refactor this SQL to use CTEs: SELECT * FROM orders o JOIN customers c ON o.cust_id=c.id WHERE c.country='US';",
+        "solo_first_48": "The user wants me to refactor a SQL query to use",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": 336
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": 336
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": 336
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": 336
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": 336
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "code",
+        "target": "Implement binary search in Go, returning the index or -1.",
+        "solo_first_48": "The user wants me to implement a binary search a",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": 430
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": 403
+        }
+      },
+      {
+        "category": "code",
+        "target": "Debug: why does `for i in range(len(arr)): arr.pop(i)` fail? Explain and fix.",
+        "solo_first_48": "This is a classic Python bug related to modifyin",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": 470
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain RSA encryption in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain how the TCP three-way handshake works.",
+        "solo_first_48": "This is a straightforward technical question abo",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain what a B-tree is and when you'd use one.",
+        "solo_first_48": "Here's a thinking process that leads to the expl",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain the difference between DNA and RNA in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Describe photosynthesis in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Describe the process of plate tectonics in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Think step by step, then solve: what year will be the 100th anniversary of 1969?",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Analyze this claim: 'AI will replace most programmers by 2030'. Walk through your reasoning.",
+        "solo_first_48": "Here's a thinking process that leads to the anal",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 338
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Given the statement 'All birds can fly', identify the logical flaw and explain.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 295
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 295
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 203
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 295
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 295
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Evaluate this argument: 'If we allow X, then Y, and Y is bad, so X is bad.'",
+        "solo_first_48": "Here's a thinking process that leads to the eval",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 348
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 346
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Think carefully: is 0.999... equal to 1? Justify your answer.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 336
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 336
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 219
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 336
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 336
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Walk through the logic: why is `True + True == 2` in Python?",
+        "solo_first_48": "This is a great question about Python's type sys",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 163
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 163
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 163
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 163
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 163
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a haiku about autumn rain.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a one-paragraph opening for a noir detective story set in 2049.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a brief dialogue between a skeptic and a believer about consciousness.",
+        "solo_first_48": "Here's a thinking process that leads to the dial",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Describe a city where gravity works sideways, in 50 words.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a limerick about a database index.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Draft a cover letter paragraph for a systems engineering role.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      }
+    ],
+    "elapsed_s": 1185.9120197296143,
+    "summary": {
+      "by_category": {
+        "pure_math": {
+          "bit_exact": 34,
+          "total": 36,
+          "rate": 0.9444444444444444
+        },
+        "code": {
+          "bit_exact": 21,
+          "total": 36,
+          "rate": 0.5833333333333334
+        },
+        "factual_prose": {
+          "bit_exact": 34,
+          "total": 36,
+          "rate": 0.9444444444444444
+        },
+        "template_cot": {
+          "bit_exact": 10,
+          "total": 36,
+          "rate": 0.2777777777777778
+        },
+        "creative": {
+          "bit_exact": 31,
+          "total": 36,
+          "rate": 0.8611111111111112
+        }
+      },
+      "overall": {
+        "bit_exact": 130,
+        "total": 180,
+        "rate": 0.7222222222222222
+      }
+    }
+  },
+  "dflash_sglang_triton_2026-04-20": {
+    "label": "dflash_sglang_triton_2026-04-20",
+    "targets": [
+      {
+        "category": "pure_math",
+        "target": "A bag contains 5 red, 3 blue, and 2 green marbles. If I draw 3 marbles without replacement, what's the probability all three are different colors? Show your work.",
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Solve for x: 3x\u00b2 + 7x - 20 = 0. Show your work.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Compute: 127 \u00d7 43, then add 19, then divide by 8. Show your work.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 130
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Is 1009 prime? Show your reasoning step by step.",
+        "solo_first_48": "Here's a thinking process that leads to the conc",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the conc",
+          "other_first_48": "Here's a thinking process that leads to the conc",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "A train leaves city A at 60 mph, another at 80 mph from city B, 350 miles apart. When do they meet?",
+        "solo_first_48": "Here's a thinking process that leads to the solu",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the solu",
+          "other_first_48": "Here's a thinking process that leads to the solu",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "pure_math",
+        "target": "Integrate: \u222b (3x\u00b2 + 2x - 5) dx, then evaluate from x=0 to x=4. Show your work.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "code",
+        "target": "Write a Python function that reverses a string.",
+        "solo_first_48": "The user wants a Python function that reverses a",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that reverses a",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that reverses a",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Python function that reverses a",
+          "other_first_48": "The user wants a simple Python function that rev",
+          "first_divergence_char": 17
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Python function that reverses a",
+          "other_first_48": "The user wants a simple Python function that rev",
+          "first_divergence_char": 17
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that reverses a",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Python function that reverses a",
+          "other_first_48": "The user wants a Python function that reverses a",
+          "first_divergence_char": 111
+        }
+      },
+      {
+        "category": "code",
+        "target": "Write a Python function that returns the nth Fibonacci number (0-indexed).",
+        "solo_first_48": "The user wants a Python function that returns th",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Python function that returns th",
+          "other_first_48": "The user wants a Python function that returns th",
+          "first_divergence_char": 269
+        }
+      },
+      {
+        "category": "code",
+        "target": "Write a Rust function that checks if a string is a palindrome.",
+        "solo_first_48": "The user wants a Rust function that checks if a ",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 185
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 340
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 340
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 185
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 185
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants a Rust function that checks if a ",
+          "other_first_48": "The user wants a Rust function that checks if a ",
+          "first_divergence_char": 185
+        }
+      },
+      {
+        "category": "code",
+        "target": "Refactor this SQL to use CTEs: SELECT * FROM orders o JOIN customers c ON o.cust_id=c.id WHERE c.country='US';",
+        "solo_first_48": "The user wants me to refactor a SQL query to use",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to refactor a SQL query to use",
+          "other_first_48": "The user wants me to refactor a SQL query to use",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "code",
+        "target": "Implement binary search in Go, returning the index or -1.",
+        "solo_first_48": "The user wants me to implement a binary search a",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": 430
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "The user wants me to implement a binary search a",
+          "other_first_48": "The user wants me to implement a binary search a",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "code",
+        "target": "Debug: why does `for i in range(len(arr)): arr.pop(i)` fail? Explain and fix.",
+        "solo_first_48": "This is a classic Python bug related to modifyin",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": 458
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": 458
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": 458
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": 458
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": 458
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a classic Python bug related to modifyin",
+          "other_first_48": "This is a classic Python bug related to modifyin",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain RSA encryption in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 110
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 375
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain how the TCP three-way handshake works.",
+        "solo_first_48": "This is a straightforward technical question abo",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "This is a straightforward technical question abo",
+          "other_first_48": "This is a straightforward technical question abo",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain what a B-tree is and when you'd use one.",
+        "solo_first_48": "Here's a thinking process that leads to the expl",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the expl",
+          "other_first_48": "Here's a thinking process that leads to the expl",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Explain the difference between DNA and RNA in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Describe photosynthesis in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "factual_prose",
+        "target": "Describe the process of plate tectonics in one paragraph.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 169
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 169
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 169
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 169
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 169
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Think step by step, then solve: what year will be the 100th anniversary of 1969?",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": 276
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": 276
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:** ",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Analyze this claim: 'AI will replace most programmers by 2030'. Walk through your reasoning.",
+        "solo_first_48": "Here's a thinking process that leads to the anal",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the anal",
+          "other_first_48": "Here's a thinking process that leads to the anal",
+          "first_divergence_char": 255
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Given the statement 'All birds can fly', identify the logical flaw and explain.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 203
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 203
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 203
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 295
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 203
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 295
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Evaluate this argument: 'If we allow X, then Y, and Y is bad, so X is bad.'",
+        "solo_first_48": "Here's a thinking process that leads to the eval",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 348
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the eval",
+          "other_first_48": "Here's a thinking process that leads to the eval",
+          "first_divergence_char": 112
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Think carefully: is 0.999... equal to 1? Justify your answer.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 336
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 219
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 219
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 219
+        }
+      },
+      {
+        "category": "template_cot",
+        "target": "Walk through the logic: why is `True + True == 2` in Python?",
+        "solo_first_48": "This is a great question about Python's type sys",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 187
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 187
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 187
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 187
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 187
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "This is a great question about Python's type sys",
+          "other_first_48": "This is a great question about Python's type sys",
+          "first_divergence_char": 163
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a haiku about autumn rain.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 369
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 199
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 369
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 369
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 199
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a one-paragraph opening for a noir detective story set in 2049.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a brief dialogue between a skeptic and a believer about consciousness.",
+        "solo_first_48": "Here's a thinking process that leads to the dial",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the dial",
+          "other_first_48": "Here's a thinking process that leads to the dial",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Describe a city where gravity works sideways, in 50 words.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 353
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Write a limerick about a database index.",
+        "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": true,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": null
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "other_first_48": "Thinking Process:\n\n1.  **Analyze the Request:**\n",
+          "first_divergence_char": 407
+        }
+      },
+      {
+        "category": "creative",
+        "target": "Draft a cover letter paragraph for a systems engineering role.",
+        "solo_first_48": "Here's a thinking process that leads to the sugg",
+        "solo_self_consistent": true,
+        "B=4_setA_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setB_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setC_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        },
+        "B=4_setD_slot0": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 567
+        },
+        "B=4_setA_slot3": {
+          "bit_exact": false,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": 567
+        },
+        "B=8_setE_slot0": {
+          "bit_exact": true,
+          "solo_first_48": "Here's a thinking process that leads to the sugg",
+          "other_first_48": "Here's a thinking process that leads to the sugg",
+          "first_divergence_char": null
+        }
+      }
+    ],
+    "elapsed_s": 344.26790142059326,
+    "summary": {
+      "by_category": {
+        "pure_math": {
+          "bit_exact": 31,
+          "total": 36,
+          "rate": 0.8611111111111112
+        },
+        "code": {
+          "bit_exact": 20,
+          "total": 36,
+          "rate": 0.5555555555555556
+        },
+        "factual_prose": {
+          "bit_exact": 25,
+          "total": 36,
+          "rate": 0.6944444444444444
+        },
+        "template_cot": {
+          "bit_exact": 6,
+          "total": 36,
+          "rate": 0.16666666666666666
+        },
+        "creative": {
+          "bit_exact": 24,
+          "total": 36,
+          "rate": 0.6666666666666666
+        }
+      },
+      "overall": {
+        "bit_exact": 106,
+        "total": 180,
+        "rate": 0.5888888888888889
+      }
+    }
+  }
+}

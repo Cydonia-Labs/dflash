@@ -1,0 +1,25 @@
+{
+  "mcbook_mlx_determinism": {
+    "What is 2+2? Think step by step, then an": {
+      "runs": 10,
+      "unique_outputs": 1,
+      "bit_exact_rate": 1.0,
+      "first_32chars_first_run": "Thinking Process:\n\n1.  **Analyze",
+      "variants_preview": null
+    },
+    "Write a Python function that reverses a ": {
+      "runs": 10,
+      "unique_outputs": 1,
+      "bit_exact_rate": 1.0,
+      "first_32chars_first_run": "The user wants a Python function",
+      "variants_preview": null
+    },
+    "Explain RSA encryption in one paragraph.": {
+      "runs": 10,
+      "unique_outputs": 1,
+      "bit_exact_rate": 1.0,
+      "first_32chars_first_run": "Thinking Process:\n\n1.  **Analyze",
+      "variants_preview": null
+    }
+  }
+}

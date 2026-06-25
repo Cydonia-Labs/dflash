@@ -1,0 +1,60 @@
+{
+  "comment": "gsm8k 16-prompt throughput on mcai (RTX 6000 Blackwell sm_120, SGLang triton, Qwen/Qwen3.5-27B bf16). Fills the T1 + T4 cells needed to pair with determinism sweep results for the blog's 2x2 speed/determinism matrix. c=1 numbers are re-stated from Phase 1a/1b for convenience.",
+  "date_utc": "2026-04-20",
+  "model": "Qwen/Qwen3.5-27B",
+  "num_prompts": 16,
+  "dataset": "gsm8k",
+  "max_new_tokens": 256,
+  "results": {
+    "baseline_c1": {
+      "config": "SGLang triton, no dflash",
+      "concurrency": 1,
+      "latency_s": 230.2,
+      "output_tokens": 6621,
+      "throughput_tok_s": 28.76,
+      "source": "Phase 1a benchmark (2026-04-20)"
+    },
+    "baseline_c8": {
+      "config": "SGLang triton, no dflash",
+      "concurrency": 8,
+      "latency_s": 21.0,
+      "output_tokens": 3975,
+      "throughput_tok_s": 189.13,
+      "source": "this run (2026-04-20)"
+    },
+    "dflash_c1": {
+      "config": "SGLang triton + DFLASH spec-decode, z-lab/Qwen3.5-27B-DFlash, block_size=16",
+      "concurrency": 1,
+      "latency_s": 43.6,
+      "output_tokens": 6621,
+      "throughput_tok_s": 149.68,
+      "accept_length_per_block_16": 7.577,
+      "verify_calls": 905,
+      "source": "Phase 1b benchmark (2026-04-20)"
+    },
+    "dflash_c8": {
+      "config": "SGLang triton + DFLASH spec-decode, z-lab/Qwen3.5-27B-DFlash, block_size=16",
+      "concurrency": 8,
+      "latency_s": 6.1,
+      "output_tokens": 3975,
+      "throughput_tok_s": 647.03,
+      "accept_length_per_block_16": 6.988,
+      "verify_calls": 591,
+      "source": "this run (2026-04-20)"
+    }
+  },
+  "pairing_with_sweep_determinism": {
+    "note": "Pair each throughput cell with the corresponding sweep bit-exact rate for the 2x2 speed/determinism matrix.",
+    "baseline_c1_determinism": "30/30 = 100% (B=1 sequential, results/mcai_cuda_determinism.json)",
+    "baseline_c8_determinism": "130/180 = 72.2% (sweep, results/mcai_cuda_sweep.json)",
+    "dflash_c1_determinism": "30/30 = 100% (B=1 sequential, results/mcai_cuda_determinism.json)",
+    "dflash_c8_determinism": "106/180 = 58.9% (sweep, results/mcai_cuda_sweep.json)"
+  },
+  "headline_ratios": {
+    "baseline_c8_vs_c1_speedup": 6.58,
+    "dflash_c8_vs_c1_speedup": 4.32,
+    "dflash_c8_vs_baseline_c8_speedup": 3.42,
+    "dflash_c1_vs_baseline_c1_speedup": 5.20,
+    "dflash_c1_vs_baseline_c8_fraction": 0.79
+  }
+}
